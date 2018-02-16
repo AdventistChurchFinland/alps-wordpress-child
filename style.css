@@ -1,0 +1,31 @@
+/*
+Theme Name:         ALPS Adventist.fi
+Theme URI:          http://www.adventist.io
+Template:				    alps-wordpress
+Description:        ALPS is the Adventist Living Pattern Library theme based off of the Sage WordPress theme.
+Version:            1.0.0
+Author:             Seventh-day Adventist Church Finland
+Author URI:         http://www.adventist.fi
+Text Domain:        alps-wordpress-child
+
+*/
+
+#widget_remote_posts_widget {
+	font-family: inherit;
+	margin-bottom: 3.75rem;
+}
+
+#widget_remote_posts_widget .font--tertiary--l {
+	font-family: "Montserrat","Helvetica","Arial",sans-serif;
+  font-weight: 600;
+  font-size: 1.625rem;
+  margin-bottom: 2rem;
+}
+
+#widget_remote_posts_widget .media-block__title {
+  font-size: 1.3rem;
+}
+
+#widget_remote_posts_widget .media-block + .media-block {
+	margin-top: 2rem;
+}

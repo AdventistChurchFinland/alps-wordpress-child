@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Sivua, jota yrität katsoa, ei löytynyt."
+
+#: base.php:14
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Käytät <strong>vanhentunutta</strong> selainta. Ole ystävällinen ja <a "
+"href=”http://browsehappy.com/”>päivitä selaimesi</a> parantaaksesi "
+"kokemustasi."
+
+#: functions.php:22
+msgid "Error locating %s for inclusion"
+msgstr "Tiedostoa ei voi lukea: %s"
+
+#: index.php:5 search.php:5
+msgid "Sorry, no results were found."
+msgstr "Pahoittelut, hakusi ei tuottanut tuloksia."
+
+#: lib/extras.php:31
+msgid "Continued"
+msgstr "Jatkuu"
+
+#: lib/setup.php:30
+msgid "Primary Navigation"
+msgstr "Päänavigaatio"
+
+#: lib/setup.php:57
+msgid "Primary"
+msgstr "Päänavigaatio"
+
+#: lib/setup.php:66
+msgid "Footer"
+msgstr "Alatunniste"
+
+#: lib/titles.php:13
+msgid "Latest Posts"
+msgstr "Uusimmat artikkelit"
+
+#: lib/titles.php:18
+msgid "Search Results for %s"
+msgstr "Hakutulokset haulle %s"
+
+#: lib/titles.php:20
+msgid "Not Found"
+msgstr "Ei löytynyt"
+
+#: templates/comments.php:9
+msgctxt "comments title"
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Yksi vastaus kohteeseen \"%2$s\""
+msgstr[1] "%1$s vastausta kohteeseen &ldquo;%2$s&rdquo;"
+
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr "&larr; Vanhemmat kommentit"
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "Uudemmat kommentit &rarr;"
+
+#: templates/comments.php:31
+msgid "Comments are closed."
+msgstr "Kommentit on suljettu."
+
+#: templates/content-page.php:2 templates/content-single.php:11
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr "Kirjoittaja"
+
+#. Theme Name of the plugin/theme
+msgid "Sage Starter Theme"
+msgstr "Sage Starter teema"
+
+#. Theme URI of the plugin/theme
+msgid "https://roots.io/sage/"
+msgstr "https://roots.io/sage/"
+
+#. Description of the plugin/theme
+msgid ""
+"Sage is a WordPress starter theme. <a href=\"https://github.com/roots/sage"
+"\">Contribute on GitHub</a>"
+msgstr ""
+"Perustuu WordPress runkoteemaan SAGE. <a href=\"https://github.com/roots/sage"
+"\">Osallistu ja kehitä GitHubissa</a>"
+
+#. Author of the plugin/theme
+msgid "Roots"
+msgstr "Roots"
+
+#. Author URI of the plugin/theme
+msgid "https://roots.io/"
+msgstr "https://roots.io/"
+
+#. Template Name of the plugin/theme
+msgid "Custom Template"
+msgstr "Mukautettu sivupohja"
