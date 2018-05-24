@@ -82,13 +82,13 @@ class Alps_Remote_Posts_Widget extends WP_Widget {
                         $media_body = wp_remote_retrieve_body( $media_request );
                         $media = json_decode( $media_body );
                         if( ! empty( $media ) ) {
-                            $img_url = $media->source_url;
+                            $img_url = str_replace('http://', 'https://', $media->source_url);
                             $imgSizeDefinition = 'medium';
                             if ( ! empty( $instance['thumbnail_size'] ) ) {
                                 $imgSizeDefinition = $instance['thumbnail_size'];
                             }
                             if ( !empty( $media->media_details->sizes->{$imgSizeDefinition} )) {
-                                $img_url = $media->media_details->sizes->{$imgSizeDefinition}->source_url;
+                                $img_url = str_replace('http://', 'https://', $media->media_details->sizes->{$imgSizeDefinition}->source_url);
                             }
                         }
                     }
